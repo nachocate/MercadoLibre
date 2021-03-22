@@ -39,7 +39,7 @@ Para clonar dicho proyecto, será necesario que tenga instalado en su computador
 Una vez instalado y configurado el mismo, debemos realizar la siguiente operación en la consola /bash
 
 ```bash
-$ git clone https://github.com/libgit2/libgit2
+$ git clone https://github.com/nachocate/MercadoLibre
 ```
 Una vez finalizado el proceso, podremos acceder al proyecto con normalidad.
 
