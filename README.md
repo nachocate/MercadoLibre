@@ -1,26 +1,26 @@
-# Desarrollo de Aplicación Android para Busqueda de de Productos en MercadoLibre
+# Desarrollo de Aplicación Android para Búsqueda de Productos con la API de MercadoLibre
 
 ## Descripción
-Este proyecto representa un desarrollo para la busqueda de productos presentes en la API que provee MercadoLibre a distintos desarrolladores. La aplicación consiste en 3 pantallas, las cuales se relacionan con:
-  1) Busqueda de un producto
-  2) Exposición de productos coincidentes con la busqueda
+Este proyecto representa un desarrollo para la búsqueda de productos presentes en la API que provee MercadoLibre a distintos desarrolladores. La aplicación consiste en 3 pantallas, las cuales se relacionan con:
+  1) Búsqueda de un producto
+  2) Exposición de productos coincidentes con la búsqueda
   3) Detalle del producto seleccionado.
   
-  A continuación se expone capturas de pantallas referidas a esta secuencia.
+  A continuación se exponen capturas de pantallas referidas a esta secuencia.
   
   ![image](https://user-images.githubusercontent.com/19366481/111952067-4f61d700-8ac3-11eb-9ab5-662f7890a0c6.png)
 
 ## Instalación de la APP
-Para realizar la instalación de la misma, será necesario realizar algunas configuraciones previas en el dispositivo movil. Esto se debe a que el mismo posee herramientas de proyección que bloquean la instalación de aplicaciones de origen desconocido. Es por ello que para desactivar dicha opción, se recomienda seguir los siguientes pasos:
-1) Abir la Configuración. 
+Para realizar la instalación de la misma, será necesario realizar algunas configuraciones previas en el dispositivo móvil. Esto se debe a que el mismo posee herramientas de proyección que bloquean la instalación de aplicaciones de origen desconocido. Es por ello que para desactivar dicha opción, se recomienda seguir los siguientes pasos:
+1) Abrir la Configuración. 
 2) Seleccionar Seguridad y privacidad.
 3) Tocar el interruptor junto a Aplicaciones de fuentes desconocidas para habilitar la descarga.
 
 ### Opcional
-Dada la cantidad de dispositivos y las diferentes versiones de android se recomienda ir a la configuración del movil y utlizar el buscador incorporado a la misma. Se sugiere colocar palabras como: 
+Dada la cantidad de dispositivos y las diferentes versiones de android se recomienda ir a la configuración del movil y utilizar el buscador incorporado a la misma. Se sugiere colocar palabras como: 
 * Aplicaciones de origen desconocido
 * Aplicaciones de fuentes desconocidas
-En caso de encontrar la opción procederemos a desactivarla. En caso de que el problema persista, se recomienda buscar las especificaciones del movil para así encontrar dicha sección.
+En caso de encontrar la opción procederemos a desactivarla. En caso de que el problema persista, se recomienda buscar las especificaciones del móvil para así encontrar dicha sección.
 
 ### Link de Descarga de la apk
 Una vez realiza
@@ -34,7 +34,7 @@ Para poder descargar el proyecto existen 2 opciones posibles, las cuales son:
 A continuación, se detalla cada una de ellas en las siguientes sub-secciones.
 
 ### Clonación del proyecto
-Para clonar dicho proyecto, será necesario que tenga instalado en su computadora un cliente GIT que le permite realizar esta operación. En caso de no tenerlo, no olvide que puede descargar el mismo de la siguiente  [página](https://git-scm.com/downloads)
+Para clonar dicho proyecto, será necesario que tenga instalado en su computadora un cliente GIT que le permita realizar esta operación. En caso de no tenerlo, no olvide que puede descargar el mismo de la siguiente  [página](https://git-scm.com/downloads)
 
 Una vez instalado y configurado el mismo, debemos realizar la siguiente operación en la consola /bash
 
@@ -46,7 +46,7 @@ Una vez finalizado el proceso, podremos acceder al proyecto con normalidad.
 ### Descarga del proyecto
 Se encuentra disponible la opción de descarga del proyecto, dentro de este repositorio. La misma se encuentra en el margen superior derecho.
 
-## Caracteristicas Generales
+## Características Generales
 
 ### Características de la aplicación
 La aplicación fue desarrollada con las siguientes características:
@@ -57,7 +57,7 @@ La aplicación fue desarrollada con las siguientes características:
 
 ### Caracteristicas del desarrollo
 *  Utilización un patrón de diseño MVP (Modelo - Vista - Presentador)
-*  Utilización de LeakCanary para la detección de perdidas de memoria.
+*  Utilización de LeakCanary para la detección de pérdidas de memoria.
 *  Utilización de test unitarios para garantizar la correcta funcionalidad de los métodos (Mockito y JUnit 4)
 *  Generación de documentación con la herramienta JavaDoc
 
@@ -95,12 +95,12 @@ Las pruebas unitarias fueron realizadas sobre la capa de presentación, debido a
 ![image](https://user-images.githubusercontent.com/19366481/111950620-4c65e700-8ac1-11eb-9251-06a1244ba79f.png)
 
 Para la ejecución de las mismas deberá realizarse los siguientes pasos:
-### Paso 1: Acceder a alguno de los archivos de test vinculados a los presentadores. 
-### Paso 2: Situarse sobre el nombre de la función (la cual se corresponde con un test).
-### Paso 3: Click derecho sobre la misma, y selección de la opción " Run'nombreDelTest(..)' "
+1) Acceder a alguno de los archivos de test vinculados a los presentadores. 
+2) Situarse sobre el nombre de la función (la cual se corresponde con un test).
+3) Click derecho sobre la misma, y selección de la opción " Run'nombreDelTest(..)' "
 
 
 ## Documentación
-La documentación del proyecto se encuentra en la carpeta "documentation", la cual se encuentra en la raiz de este repositorio.
+La documentación del proyecto se encuentra en la carpeta "documentation", la cual se encuentra en la raíz de este repositorio.
 
 
