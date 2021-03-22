@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#FFFFFF"
+    android:layout_margin="10dp"
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ic_launcher_foreground"
+            android:id="@+id/ivImage"
+            android:layout_margin="5dp">
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:id="@+id/tvItemProductPrice">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del producto"
+            android:textSize="20dp"
+            android:id="@+id/tvItemProductName">
+
+
+        </TextView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

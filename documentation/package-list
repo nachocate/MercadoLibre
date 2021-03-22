@@ -1,0 +1,8 @@
+com.example.mercadolibreapp
+com.example.mercadolibreapp.adapters
+com.example.mercadolibreapp.api
+com.example.mercadolibreapp.models
+com.example.mercadolibreapp.mvp.interfaces
+com.example.mercadolibreapp.mvp.model
+com.example.mercadolibreapp.mvp.presenter
+com.example.mercadolibreapp.mvp.view

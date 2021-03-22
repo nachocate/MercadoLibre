@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mercado Libre</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ERROR_UNKNOWN"> A ocurrido un error en la aplicación. Por favor, intentelo nuevamente</string>
+    <string name="ALERT_SEARCH_FIELD_EMPTY">El campo de busqueda debe tener al menos un caracter.</string>
+    <string name= "ERROR_INTERNET_CONECTION">El dispositivo no se encuentra conectado a internet. Por favor, intentelo nuevamente</string>
+    <string name="ERROR_TITLE">Error</string>
+    <string name="ALERT_PRODUCT_LIST_NOT_FOUND">"No se ha encontrado ningun resultado. Intente realizar la busqueda nuevamente"</string>
+    <string name="ALERT_TITLE">Info</string>
+    <string name="ERROR_ON_FAILURE">Ha ocurrido un error al consultar con el servidor. Por favor, intentelo nuevamente</string>
+    <string name="ITEM_LIST_TITLE">Productos encontrados</string>
+    <string name="DETAIL_TITLE">Detalle del producto</string>
+    <string name="SEARCH_BAR_TITLE">Mercado Libre</string>
+    <string name="URL_MERCADO_LIBRE">http://mercadolibre.com</string>
+
+</resources>
+

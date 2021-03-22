@@ -1,0 +1,23 @@
+package com.example.mercadolibreapp.models;
+/**
+
+ * Esta clase se encuentra asociada al modelo presentado por la API correpondiente a MercadoLibre.
+ * Dicha, modela la entidad precio diferencial.
+
+ * @author Ignacio Catena
+
+ * @version 13/03/2021/A
+
+ */
+public class DifferentialPricing {
+    private Long id;
+
+
+    /**
+     * Método que retorna el valor de la variable id
+     * @return Retorna el valor de la variable mencionada
+     */
+    public Long getId() {
+        return id;
+    }
+}
